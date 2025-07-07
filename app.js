@@ -39,6 +39,7 @@ btns.forEach((btn) => {
       showResult.innerHTML = "";
       const replayBtn = document.createElement("button");
       replayBtn.textContent = "Play Again";
+      replayBtn.classList.add("btn");
       button.innerHTML = "";
       button.append(replayBtn);
 
